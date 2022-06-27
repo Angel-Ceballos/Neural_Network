@@ -1,6 +1,6 @@
 from dense_layer import Dense
 from hyperbolic_tangent import Tanh
-from mse import mse, mse_prime
+from loss import mse, mse_prime
 import numpy as np
 
 X = np.reshape([[0, 0], [0, 1], [1, 0], [1, 1]], (4, 2, 1))
