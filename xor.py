@@ -1,5 +1,5 @@
 from dense_layer import Dense
-from hyperbolic_tangent import Tanh
+from activations import Tanh
 from loss import mse, mse_prime
 import numpy as np
 
